@@ -7,7 +7,7 @@ module.exports = {
         database: process.env.BD_NAME,
         host: process.env.DB_HOST,
         dialect: process.env.DB_DIALECT,
-        loggin: false,
+        logging: false,
         timezone: "+07:00"
     }
 }

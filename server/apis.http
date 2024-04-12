@@ -1,0 +1,19 @@
+### register
+POST http://localhost:5000/api/v1/auth/register
+Content-Type: application/json
+
+# {
+#     "name": "Nguyen Canh Thien",
+#     "phone": "0348918677",
+#     "password": "123456",
+#     "role": "user"
+# }
+
+### sign in
+POST http://localhost:5000/api/v1/auth/signin
+Content-Type: application/json
+
+{
+    "phone": "0348918677",
+    "password": "13456"
+}
